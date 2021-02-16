@@ -1,0 +1,52 @@
+//Global variables
+$font-size-smallest: 1.4rem;
+$font-size-small: 1.6rem;
+$font-size-medium-small: 1.8rem;
+$font-size-default: 2rem;
+$font-size-huge: 4rem;
+$font-size-logo: 10rem;
+$font-size-big: 3rem;
+$font-size-large: 3.5rem;
+$font-size-medium: 2.6rem;
+
+$color-primary:	#2ab2af;
+$color-secondary: 	#c0df34;
+$color-tertiary: 	#e5eff5;
+$color-fourth: 	#98a6bd;
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; //1rem = 10px
+    height: 100%;
+    font-family: 'Karla', sans-serif;
+
+    // @include respond(tab-big) {
+    //     font-size: 50%; // 1rem = 8px
+    // }
+
+    // @include respond(tab-small) {
+    //     font-size: 37.5%; //1rem = 6px
+    // }
+
+    // @include respond(phone) {
+    //     font-size: 25%; //1rem = 4px
+    // }
+}
+
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: #e5eff5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
